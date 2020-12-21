@@ -71,7 +71,7 @@ public class Main {
 	 * @return primo boolean
 	 */
 	public static boolean esPrimo(int n) {
-		//TODO
+		
 		int num = 0;
 		boolean primo = true;
 		
