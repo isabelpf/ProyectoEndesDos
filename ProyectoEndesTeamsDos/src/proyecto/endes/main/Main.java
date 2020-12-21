@@ -63,8 +63,12 @@ public class Main {
 	}
 	
 	/**
-	 * TODO Implementation Ana Margarita Caballero
+	 * Metodo esPrimo
 	 * 
+	 * Comprueba si un número es primo
+	 * Fecha Mod: 21 dic. 2020
+	 * @param n int num
+	 * @return primo boolean
 	 */
 	public static boolean esPrimo(int n) {
 		//TODO
