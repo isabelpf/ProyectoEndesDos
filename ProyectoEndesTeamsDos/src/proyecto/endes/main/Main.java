@@ -111,13 +111,21 @@ public class Main {
 		return false;
 	}
 	/**
-	 * TODO Implementation Adrián Fanjul
+	 * Metodo numCifras
 	 * 
+	 * Metodo que calcula el numero de cifras de un numero
+	 * 
+	 * @param numero
+	 * @return int 
 	 */
 	
 	public static int numCifras(int numero) {
-		//TODO:
-		return -1;
+		int cifras=0;
+		while (numero >0) {
+			numero=numero/10;
+			cifras++;
+		}
+		return cifras;
 	}
 	/**
 	 * TODO Implementation  Freddy Ariel
