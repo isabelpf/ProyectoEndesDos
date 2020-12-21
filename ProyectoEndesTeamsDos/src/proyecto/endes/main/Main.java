@@ -68,7 +68,17 @@ public class Main {
 	 */
 	public static boolean esPrimo(int n) {
 		//TODO
-		return false;
+		int num = 0;
+		boolean primo = true;
+		
+		for(int i = 0; i < (num/2); i++) {
+			if (num % i == 0) {
+				primo = true;
+			} else {
+				primo = false;
+			}
+		}
+		return primo;
 		
 	}
 	/**
